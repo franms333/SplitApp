@@ -1,0 +1,24 @@
+<mvc:View controllerName="Ejercicio18.Ejercicio18.controller.DetailView1" 
+xmlns:mvc="sap.ui.core.mvc"
+xmlns:layout="sap.ui.layout"
+xmlns:f="sap.ui.layout.form" 
+displayBlock="true" 
+xmlns="sap.m">
+	
+    <Page 
+    title="Detail"
+    class="sapUIStdPage"
+    backgroundDesign="Solid">
+    <content>
+        <f:SimpleForm title="Product Details">
+            <f:content>
+            <Label text="Codigo Producto"></Label>
+            <Text text="{ProductoSeleccionadoJSON>/codigo_producto}"></Text>
+            <Label text="Descripción Producto"></Label>
+            <Text text="{ProductoSeleccionadoJSON>/desc_producto}"></Text>
+            </f:content>
+        </f:SimpleForm>
+    </content>
+    </Page>
+    
+</mvc:View>

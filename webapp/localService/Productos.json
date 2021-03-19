@@ -1,0 +1,49 @@
+{
+    "value": [
+                {
+                "codigo_producto": "210605120522 1",
+                "cod_interno": "1000",
+                "fecha_creacion": "2020-11-20T00:00:00Z",
+                "fecha_vencimiento": "2020-12-31T00:00:00Z",
+                "desc_producto": "Producto 1",
+                "nombre_empresa": "Easy",
+                "origen": "Argentina"
+                }, 
+                {
+                "codigo_producto": "210132099429 2",
+                "cod_interno": "2000",
+                "fecha_creacion": "2020-11-20T00:00:00Z",
+                "fecha_vencimiento": "2020-12-31T00:00:00Z",
+                "desc_producto": "Producto 2",
+                "nombre_empresa": "Ikea",
+                "origen": "Chile"
+                },
+                {
+                "codigo_producto": "210131354329 3",
+                "cod_interno": "1000",
+                "fecha_creacion": "2020-11-28T00:00:00Z",
+                "fecha_vencimiento": "2021-01-29T00:00:00Z",
+                "desc_producto": "Producto 3",
+                "nombre_empresa": "Falabella",
+                "origen": "Chile"
+                },
+                {
+                "codigo_producto": "134232011342 4",
+                "cod_interno": "2000",
+                "fecha_creacion": "2020-09-20T00:00:00Z",
+                "fecha_vencimiento": "2020-11-30T00:00:00Z",
+                "desc_producto": "Producto 4",
+                "nombre_empresa": "Costco",
+                "origen": "Mexico"
+                },
+                {
+                "codigo_producto": "109832031429 5",
+                "cod_interno": "3000",
+                "fecha_creacion": "2020-11-20T00:00:00Z",
+                "fecha_vencimiento": "2020-12-31T00:00:00Z",
+                "desc_producto": "Producto 5",
+                "nombre_empresa": "Jumbo",
+                "origen": "Argentina"
+                }
+            ]
+}

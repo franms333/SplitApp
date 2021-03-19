@@ -1,0 +1,21 @@
+<mvc:View controllerName="Ejercicio18.Ejercicio18.controller.Ejercicio18" 
+xmlns:mvc="sap.ui.core.mvc"
+xmlns:layout="sap.ui.layout" 
+xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+displayBlock="true" 
+xmlns="sap.m">
+
+
+    <Page
+        id="master"
+        title="Master"
+        backgroundDesign="List"
+        class="sapUiStdPage">
+        <List items="{ProductosJSON>/value}">
+            <items>
+                <StandardListItem title="{ProductosJSON>desc_producto}" type="Active" press="onListItemPress"/>
+            </items>
+        </List>
+    </Page>
+    
+</mvc:View>
